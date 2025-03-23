@@ -1,5 +1,5 @@
 # AWS
-region = "ap-southeast-1"
+region = "ap-south-1"
 
 # switch
 terraform_version        = "1.1.1"

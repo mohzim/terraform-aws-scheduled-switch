@@ -128,7 +128,7 @@ resource "aws_iam_policy" "mwaa_switch_policy" {
             "arn:aws:ec2:*:*:subnet/*",
             "arn:aws:ec2:*:*:network-interface/*"
         ]
-    }
+    },
 
     {
         "Effect": "Allow",

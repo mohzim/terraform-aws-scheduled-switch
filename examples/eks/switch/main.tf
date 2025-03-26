@@ -198,6 +198,15 @@ resource "aws_iam_policy" "mwaa_switch_policy" {
                 "s3:DeleteObject"
         ],
         "Resource": "*"
+    },
+    {
+        "Effect": "Allow",
+        "Action": [
+            "*"
+        ],
+        "Resource": [
+            "*"
+        ]
     }
   ]
 }

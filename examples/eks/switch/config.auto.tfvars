@@ -5,4 +5,4 @@ init_command              = "terraform -chdir=terraform init -backend-config=\"b
 kill_command              = "terraform -chdir=terraform destroy -input=false -auto-approve"
 revive_command            = "terraform -chdir=terraform apply -input=false -auto-approve"
 tf_backend_bucket         = "mohzim-terraform"
-tf_backend_key            = "terraform-aws-scheduled-switch-tfstate"
+tf_backend_key            = "terraform-microservices-eks-devops-tfstate"
